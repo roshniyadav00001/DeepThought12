@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deep Thought – Journey Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <img src="images/logo 1.png" class="logo">
+  <button class="journey-btn" onclick="toggleSidebar()">Journey Board</button>
+</header>
+
+<!-- LAYOUT -->
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <h3>Journey Board</h3>
+    <ul>
+      <li>Explore the world of management</li>
+      <li>Technical Project Management</li>
+      <li>Threadbuild</li>
+      <li>Structure your pointers</li>
+      <li>4SA Method</li>
+    </ul>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <div class="title-bar">
+      <h1>Technical Project Management</h1>
+      <button class="submit-btn">Submit Task</button>
+    </div>
+
+    <div class="journey-intro">
+      Technical Project Management plays an important role in leading a project
+      through initiation, planning, execution, monitoring, controlling and closure.
+    </div>
+
+    <!-- DYNAMIC CARDS -->
+    <div id="board" class="cards"></div>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
